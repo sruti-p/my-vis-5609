@@ -1,6 +1,6 @@
 <script lang="ts">
     import * as d3 from "d3";
-    import { Scatter, Line } from "$lib";
+    import { Scatter, Line, PL } from "$lib";
     import { onMount } from "svelte";
     import type { TMovie } from "../../types";
 
@@ -8,6 +8,7 @@
     let movies: TMovie[] = $state([]);
 
     let yearRange: [Date, Date] | undefined = $state();
+    let selectedGenre = $state("All");
 
     function getYearCountArray(movies: TMovie[]) {
         let yearCount: { [year: number]: number } = {};
@@ -32,6 +33,10 @@
     }
 
     let yearCountArray = $derived(getYearCountArray(movies));
+
+    let genreOptions = $derived(
+        Array.from(new Set(movies.flatMap((movie) => movie.genres))).sort(),
+    );
 
     type TAxisSelection = {
         x: keyof TMovie;
@@ -152,9 +157,10 @@
 
         <Scatter
             movies={yearRange
-                ? movies.filter(
-                      (d) => d.year <= yearRange[1] && d.year >= yearRange[0],
-                  )
+                ? movies.filter((d) => {
+                      const [start, end] = yearRange!;
+                      return d.year >= start && d.year <= end;
+                  })
                 : movies}
             x={axisSelection.x}
             y={axisSelection.y}
@@ -163,6 +169,18 @@
         <br />
 
         <Line data={yearCountArray} bind:yearRange />
+
+        <div class="genre-selector">
+            <label for="genre">Genre:</label>
+            <select id="genre" bind:value={selectedGenre}>
+                <option value="All">All genres</option>
+                {#each genreOptions as genre}
+                    <option value={genre}>{genre}</option>
+                {/each}
+            </select>
+        </div>
+
+        <PL movies={movies} genre={selectedGenre} {yearRange} />
     {/if}
 </div>
 

@@ -4,5 +4,6 @@ import Chord from './Chord.svelte'
 import HeatMap from './HeatMap.svelte'
 import Scatter from './Scatter.svelte'
 import Line from './Line.svelte'
+import PL from './PL.svelte'
 
-export {Bar, ParallelCoordinates, Chord, HeatMap, Scatter, Line}
+export {Bar, ParallelCoordinates, Chord, HeatMap, Scatter, Line, PL}
