@@ -1,0 +1,202 @@
+subject_id,stay_id,seq_num,icd_code,icd_version,icd_title
+10019385,30324772,1,R079,10,"Chest pain, unspecified"
+10026255,37844627,1,8600,9,TRAUM PNEUMOTHORAX-CLOSE
+10026255,34236274,1,42731,9,ATRIAL FIBRILLATION
+10026255,37844627,2,80703,9,FRACTURE THREE RIBS-CLOS
+10026255,37844627,3,E8889,9,UNSPECIFIED FALL
+10018081,36836328,1,4280,9,"CONGESTIVE HEART FAILURE, UNSPEC"
+10018081,38875576,1,5579,9,VASC INSUFF INTEST NOS
+10018081,33007927,2,9986,9,PERSIST POSTOP FISTULA
+10018081,37593892,3,42731,9,ATRIAL FIBRILLATION
+10018081,37593892,1,99679,9,COMP D/TO GRAFT/IMPLANT
+10018081,33007927,1,99859,9,OTHER POST-OP INFECTION
+10018081,33007927,3,E8799,9,ABN REACT-PROCEDURE NOS
+10018081,37593892,2,E9289,9,ACCIDENT NOS
+10018081,37593892,4,V5861,9,LONG TERM USE ANTIGOAGULANT
+10010471,31660580,1,I469,10,"Cardiac arrest, cause unspecified"
+10010471,35357090,1,I4891,10,Unspecified atrial fibrillation
+10005866,32537287,1,I81,10,Portal vein thrombosis
+10005866,34558830,1,5531,9,UMBILICAL HERNIA
+10005866,31121963,2,R079,10,"Chest pain, unspecified"
+10005866,30225689,1,R109,10,Unspecified abdominal pain
+10005866,32281632,1,R109,10,Unspecified abdominal pain
+10005866,31023359,2,R112,10,"Nausea with vomiting, unspecified"
+10005866,31023359,4,B1920,10,Unspecified viral hepatitis C without hepatic coma
+10005866,30804580,1,K5660,10,Unspecified intestinal obstruction
+10005866,31023359,3,K7460,10,Unspecified cirrhosis of liver
+10005866,31121963,1,R1013,10,Epigastric pain
+10005866,35681380,1,R1031,10,Right lower quadrant pain
+10005866,31023359,1,R1031,10,Right lower quadrant pain
+10005866,31806264,1,K56609,10,"Unsp intestnl obst, unsp as to partial versus complete obst"
+10018423,33032677,1,R079,10,"Chest pain, unspecified"
+10018423,39057874,1,R0789,10,Other chest pain
+10022281,39346340,2,25000,9,DIABETES UNCOMPL ADULT
+10022281,39346340,1,44102,9,DISS ABDOM AORTIC ANEURYSM
+10014354,39105638,3,I10,10,Essential (primary) hypertension
+10014354,35452640,2,I10,10,Essential (primary) hypertension
+10014354,35203396,4,I10,10,Essential (primary) hypertension
+10014354,39202185,7,I10,10,Essential (primary) hypertension
+10014354,39105638,1,R51,10,Headache
+10014354,31640785,2,E109,10,Type 1 diabetes mellitus without complications
+10014354,35203396,2,E119,10,Type 2 diabetes mellitus without complications
+10014354,35452640,3,E119,10,Type 2 diabetes mellitus without complications
+10014354,39202185,4,E119,10,Type 2 diabetes mellitus without complications
+10014354,35452640,4,E780,10,Pure hypercholesterolemia
+10014354,30094124,2,E860,10,Dehydration
+10014354,38849383,2,I313,10,Pericardial effusion (noninflammatory)
+10014354,35205519,3,I313,10,Pericardial effusion (noninflammatory)
+10014354,36250263,1,K625,10,Hemorrhage of anus and rectum
+10014354,39140069,2,M549,10,"Dorsalgia, unspecified"
+10014354,39202185,2,N179,10,"Acute kidney failure, unspecified"
+10014354,33222885,1,N390,10,"Urinary tract infection, site not specified"
+10014354,35452640,1,R079,10,"Chest pain, unspecified"
+10014354,37802225,1,R079,10,"Chest pain, unspecified"
+10014354,35205519,2,R079,10,"Chest pain, unspecified"
+10014354,38849383,1,R079,10,"Chest pain, unspecified"
+10014354,30390242,1,R109,10,Unspecified abdominal pain
+10014354,34617920,1,R509,10,"Fever, unspecified"
+10014354,39621946,1,R509,10,"Fever, unspecified"
+10014354,38801518,1,R509,10,"Fever, unspecified"
+10014354,36428628,1,R531,10,Weakness
+10014354,30094124,1,R531,10,Weakness
+10014354,34820898,1,R531,10,Weakness
+10014354,30279522,1,R531,10,Weakness
+10014354,38849383,3,R871,10,Abn lev hormones in specimens from female genital organs
+10014354,35203396,3,Z794,10,Long term (current) use of insulin
+10014354,39633384,2,Z794,10,Long term (current) use of insulin
+10014354,31640785,3,Z794,10,Long term (current) use of insulin
+10014354,34820898,3,Z794,10,Long term (current) use of insulin
+10014354,39202185,5,Z794,10,Long term (current) use of insulin
+10014354,39202185,3,C9110,10,Chronic lymphocytic leuk of B-cell type not achieve remis
+10014354,39633384,1,E1165,10,Type 2 diabetes mellitus with hyperglycemia
+10014354,39202185,6,E7800,10,"Pure hypercholesterolemia, unspecified"
+10014354,35205519,1,I4891,10,Unspecified atrial fibrillation
+10014354,39140069,3,I4891,10,Unspecified atrial fibrillation
+10014354,39202185,1,M7989,10,Other specified soft tissue disorders
+10014354,32287800,1,R0789,10,Other chest pain
+10014354,39394858,1,R0789,10,Other chest pain
+10014354,31640785,1,R1013,10,Epigastric pain
+10014354,39140069,1,R1013,10,Epigastric pain
+10014354,39633384,4,Y9289,10,Oth places as the place of occurrence of the external cause
+10014354,39105638,4,Z8673,10,"Prsnl hx of TIA (TIA), and cereb infrc w/o resid deficits"
+10014354,34820898,2,E10649,10,Type 1 diabetes mellitus with hypoglycemia without coma
+10014354,35203396,1,L03031,10,Cellulitis of right toe
+10014354,37145382,1,M79662,10,Pain in left lower leg
+10014354,39633384,3,T383X1A,10,"Poisoning by insulin and oral hypoglycemic drugs, acc, init"
+10014354,39105638,2,W1830XA,10,"Fall on same level, unspecified, initial encounter"
+10012853,33256413,3,I10,10,Essential (primary) hypertension
+10012853,39968716,5,2720,9,HYPERCHOLESTEROLEMIA
+10012853,36185653,3,4019,9,HYPERTENSION NOS
+10012853,39968716,4,4019,9,HYPERTENSION NOS
+10012853,38687872,1,4019,9,HYPERTENSION NOS
+10012853,36185653,1,5184,9,ACUTE LUNG EDEMA NOS
+10012853,39968716,2,5990,9,URIN TRACT INFECTION NOS
+10012853,33256413,4,E119,10,Type 2 diabetes mellitus without complications
+10012853,35933027,1,N390,10,"Urinary tract infection, site not specified"
+10012853,39028384,3,N390,10,"Urinary tract infection, site not specified"
+10012853,38074673,3,N390,10,"Urinary tract infection, site not specified"
+10012853,33256413,1,N390,10,"Urinary tract infection, site not specified"
+10012853,33256413,2,R319,10,"Hematuria, unspecified"
+10012853,39028384,2,Y738,10,"Misc gastroent and urology devices assoc w incdt, NEC"
+10012853,38074673,2,Y833,10,"Form of external stoma cause abn react/compl, w/o misadvnt"
+10012853,35933027,3,Y848,10,"Oth medical procedures cause abn react/compl, w/o misadvnt"
+10012853,39968716,3,25000,9,DIABETES UNCOMPL ADULT
+10012853,36185653,2,42732,9,ATRIAL FLUTTER
+10012853,39968716,1,78079,9,OTHER MALAISE AND FATIGUE
+10012853,35547415,1,99676,9,COMP D/TO GU DEVICE/GRAFT
+10012853,35547415,2,E9289,9,ACCIDENT NOS
+10012853,33256413,5,I4891,10,Unspecified atrial fibrillation
+10012853,32039794,1,I82622,10,Acute embolism and thrombosis of deep veins of l up extrem
+10012853,38074673,1,N99518,10,Other cystostomy complication
+10012853,35933027,2,T83098A,10,"Mech compl of other urinary catheter, initial encounter"
+10012853,39028384,1,T8389XA,10,"Oth complication of genitourinary prosth dev/grft, init"
+10015931,37196191,1,I509,10,"Heart failure, unspecified"
+10015931,37196191,2,I4891,10,Unspecified atrial fibrillation
+10015931,39501852,1,R0600,10,"Dyspnea, unspecified"
+10015931,37196191,3,Z7901,10,Long term (current) use of anticoagulants
+10003400,34922474,2,1541,9,MALIGNANT NEOPL RECTUM
+10003400,34922474,3,4019,9,HYPERTENSION NOS
+10003400,34922474,1,5693,9,RECTAL & ANAL HEMORRHAGE
+10003400,34948767,1,5789,9,GASTROINTEST HEMORR NOS
+10003400,33347721,1,5990,9,URIN TRACT INFECTION NOS
+10003400,36976997,1,5990,9,URIN TRACT INFECTION NOS
+10003400,33347721,3,42731,9,ATRIAL FIBRILLATION
+10003400,33678912,1,42731,9,ATRIAL FIBRILLATION
+10003400,34948767,2,56941,9,RECTAL & ANAL ULCER
+10003400,36976997,2,78097,9,ALTERED MENTAL STATUS 
+10003400,33678912,2,79092,9,ABNORMAL COAGULATION PROFILE
+10003400,33347721,2,79092,9,ABNORMAL COAGULATION PROFILE
+10003400,33347721,4,V5861,9,LONG TERM USE ANTIGOAGULANT
+10023117,35087345,2,2720,9,HYPERCHOLESTEROLEMIA
+10023117,31588683,2,4019,9,HYPERTENSION NOS
+10023117,35087345,1,4280,9,"CONGESTIVE HEART FAILURE, UNSPEC"
+10023117,31283645,1,4280,9,"CONGESTIVE HEART FAILURE, UNSPEC"
+10023117,39898790,2,4280,9,"CONGESTIVE HEART FAILURE, UNSPEC"
+10023117,39898790,1,5849,9,"ACUTE KIDNEY FAILURE, UNSPECIFIED"
+10023117,35716124,1,R079,10,"Chest pain, unspecified"
+10023117,31588683,1,78609,9,RESPIRATORY ABNORM NEC
+10023117,31588683,3,V4501,9,CARDIAC PACEMAKER STATUS
+10020306,37321464,5,I10,10,Essential (primary) hypertension
+10020306,37965024,2,R05,10,Cough
+10020306,37321464,3,E119,10,Type 2 diabetes mellitus without complications
+10020306,36021274,2,E860,10,Dehydration
+10020306,37321464,1,M545,10,Low back pain
+10020306,36021274,3,R531,10,Weakness
+10020306,37206743,2,H5711,10,"Ocular pain, right eye"
+10020306,37965024,1,I5040,10,Unsp combined systolic and diastolic (congestive) hrt fail
+10020306,37965024,3,R0600,10,"Dyspnea, unspecified"
+10020306,37206743,1,R0600,10,"Dyspnea, unspecified"
+10020306,37321464,4,Z7984,10,Long term (current) use of oral hypoglycemic drugs
+10020306,36021274,1,E11649,10,Type 2 diabetes mellitus with hypoglycemia without coma
+10020306,37321464,2,W1809XA,10,"Striking against oth object w subsequent fall, init encntr"
+10040025,31226423,5,I10,10,Essential (primary) hypertension
+10040025,35353291,3,I10,10,Essential (primary) hypertension
+10040025,36132883,2,I10,10,Essential (primary) hypertension
+10040025,31945330,3,4019,9,HYPERTENSION NOS
+10040025,32034003,1,4019,9,HYPERTENSION NOS
+10040025,30836087,6,4019,9,HYPERTENSION NOS
+10040025,37401157,1,4280,9,"CONGESTIVE HEART FAILURE, UNSPEC"
+10040025,33922323,2,4280,9,"CONGESTIVE HEART FAILURE, UNSPEC"
+10040025,30836087,2,5849,9,"ACUTE KIDNEY FAILURE, UNSPECIFIED"
+10040025,30836087,3,5859,9,"CHRONIC KIDNEY DISEASE, UNSPECIFIED"
+10040025,30836087,1,6820,9,CELLULITIS OF FACE
+10040025,31945330,1,9953,9,"ALLERGY, UNSPECIFIED"
+10040025,37196722,2,D649,10,"Anemia, unspecified"
+10040025,32840887,7,E039,10,"Hypothyroidism, unspecified"
+10040025,36132883,3,E109,10,Type 1 diabetes mellitus without complications
+10040025,31226423,3,E119,10,Type 2 diabetes mellitus without complications
+10040025,32840887,2,I129,10,Hypertensive chronic kidney disease w stg 1-4/unsp chr kdny
+10040025,31320010,2,J181,10,"Lobar pneumonia, unspecified organism"
+10040025,37196722,1,K625,10,Hemorrhage of anus and rectum
+10040025,32579239,1,N179,10,"Acute kidney failure, unspecified"
+10040025,39054681,1,N179,10,"Acute kidney failure, unspecified"
+10040025,32840887,4,N189,10,"Chronic kidney disease, unspecified"
+10040025,31226423,1,R112,10,"Nausea with vomiting, unspecified"
+10040025,31226423,2,R197,10,"Diarrhea, unspecified"
+10040025,36132883,1,R600,10,Localized edema
+10040025,36041505,2,Y838,10,"Oth surgical procedures cause abn react/compl, w/o misadvnt"
+10040025,32840887,5,Z794,10,Long term (current) use of insulin
+10040025,32095131,2,Z794,10,Long term (current) use of insulin
+10040025,35353291,4,Z794,10,Long term (current) use of insulin
+10040025,31226423,4,Z794,10,Long term (current) use of insulin
+10040025,36132883,4,Z794,10,Long term (current) use of insulin
+10040025,30836087,4,25000,9,DIABETES UNCOMPL ADULT
+10040025,39760810,2,25000,9,DIABETES UNCOMPL ADULT
+10040025,39760810,1,37272,9,CONJUNCTIVAL HEMORRHAGE
+10040025,33922323,1,42731,9,ATRIAL FIBRILLATION
+10040025,32840887,3,E1122,10,Type 2 diabetes mellitus w diabetic chronic kidney disease
+10040025,32840887,6,E7800,10,"Pure hypercholesterolemia, unspecified"
+10040025,31945330,2,E9479,9,ADV EFF MEDICINAL NOS
+10040025,36132883,5,I4891,10,Unspecified atrial fibrillation
+10040025,32840887,1,M7989,10,Other specified soft tissue disorders
+10040025,31320010,1,R0600,10,"Dyspnea, unspecified"
+10040025,39760810,4,V5861,9,LONG TERM USE ANTIGOAGULANT
+10040025,30836087,5,V5867,9,LONG-TERM (CURRENT) USE OF INSULIN
+10040025,39760810,3,V5867,9,LONG-TERM (CURRENT) USE OF INSULIN
+10040025,36041505,3,Y9289,10,Oth places as the place of occurrence of the external cause
+10040025,31226423,6,Z7901,10,Long term (current) use of anticoagulants
+10040025,36132883,6,Z7901,10,Long term (current) use of anticoagulants
+10040025,35353291,1,E10621,10,Type 1 diabetes mellitus with foot ulcer
+10040025,32095131,1,E11621,10,Type 2 diabetes mellitus with foot ulcer
+10040025,35353291,2,L97529,10,Non-pressure chronic ulcer oth prt left foot w unsp severity
+10040025,36041505,1,T814XXA,10,"Infection following a procedure, initial encounter"
