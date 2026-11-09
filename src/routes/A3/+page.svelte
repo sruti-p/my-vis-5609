@@ -340,7 +340,7 @@
         // TODO: Return a different geometry for each genre,
       // see the documentation: https://threejs.org/docs/#api/en/geometries
         if (genre == "Comedy") {
-            return new THREE.DodecahedronGeometry(12);
+            return new THREE.TorusGeometry(10, 4);
         } else if (genre == "Romance") {
             return new THREE.SphereGeometry(10, 25, 16);
         } else if (genre == "Drama") {
