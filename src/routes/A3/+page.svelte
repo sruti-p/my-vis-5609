@@ -6,6 +6,7 @@
     import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
     import type { TMovie } from "../../types";
     import { addGround, onWindowResize, loadModels } from "$lib/Helper-3D";
+    import { base } from "$app/paths";
 
     import * as d3 from "d3";
 
@@ -45,7 +46,7 @@
     // }
 
     async function loadCsv() {
-        const csvUrl = "/summer_movies.csv";
+        const csvUrl = `${base}/summer_movies.csv`;
 
         movies = await d3.csv(csvUrl, (row): TMovie | undefined => {
             const numericYear = Number(row.year);
@@ -141,7 +142,7 @@
 
         // Scene
         scene = new THREE.Scene();
-        new THREE.TextureLoader().load("3d/sky.jpg", (texture) => {
+        new THREE.TextureLoader().load(`${base}/3d/sky.jpg`, (texture) => {
             texture.repeat.set(0.8, 1);
             scene.background = texture;
         });
@@ -168,11 +169,11 @@
         scene.add(light);
 
         // Ground
-        addGround(scene, FLOOR, "3d/grasslight-big.jpg");
+        addGround(scene, FLOOR, `${base}/3d/grasslight-big.jpg`);
 
         // Title + Stacked Bars
         const fontLoader = new FontLoader();
-        fontLoader.load("3d/helvetiker_bold.typeface.json", (font: Font) => {
+        fontLoader.load(`${base}/3d/helvetiker_bold.typeface.json`, (font: Font) => {
             // Title
             const textGeo = new TextGeometry("summer movies", {
                 font: font,
@@ -258,7 +259,7 @@
             { startAngle: Math.PI, orbitSpeed: 0.4 },
         ];
         horseConfigs.forEach((config) => {
-            gltfLoader.load("3d/Horse.glb", (gltf) => { // TODO: replace with your model
+            gltfLoader.load(`${base}/3d/Horse.glb`, (gltf) => { // TODO: replace with your model
                 const mesh = gltf.scene.children[0].clone() as THREE.Mesh;
                 (mesh as any).material = (mesh as any).material.clone();
                 mesh.scale.set(0.5, 0.5, 0.5);
@@ -285,7 +286,7 @@
 
         // Load frog model and play its built-in jump animation
         frogMixer = new THREE.AnimationMixer(scene);
-        gltfLoader.load("3d/frog.glb", (gltf) => {
+        gltfLoader.load(`${base}/3d/frog.glb`, (gltf) => {
             const frog = gltf.scene;
             const jumpClip = gltf.animations.find((clip) =>
                 clip.name.endsWith(".Jump"),

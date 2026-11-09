@@ -1,6 +1,7 @@
 <script lang="ts">
   import * as d3 from "d3";
   import { onMount } from "svelte";
+  import { base } from "$app/paths";
   import type { TMovie } from "../../types";
 
   import Bar from "$lib/Bar.svelte";
@@ -14,7 +15,7 @@
   // Function to load the CSV
   async function loadCsv() {
     try {
-      const csvUrl = "./summer_movies.csv";
+      const csvUrl = `${base}/summer_movies.csv`;
       movies = await d3.csv(csvUrl, (row) => {
         // TIP: in row, all values are strings, so we need to use a row conversion function here to format them
         return {
